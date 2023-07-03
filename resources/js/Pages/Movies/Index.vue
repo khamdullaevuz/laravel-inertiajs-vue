@@ -1,5 +1,5 @@
 <template>
-    <Link :href="route('test')">Home</Link>
+    <Link :href="route('test')">Test</Link>
     <table>
         <tr>
             <th scope="col">ID</th>
