@@ -14,8 +14,5 @@ createInertiaApp({
             .mixin({ components: { Link } })
             .use(plugin)
             .mount(el)
-    },
-    components: {
-        Link,
     }
 });
