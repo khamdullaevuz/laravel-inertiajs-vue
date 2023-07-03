@@ -16,3 +16,6 @@ use Inertia\Inertia;
 */
 
 Route::get('/', [MovieController::class, 'index'])->name('home');
+Route::get('/test', function () {
+    return Inertia::render('Users/Index');
+})->name('test');
